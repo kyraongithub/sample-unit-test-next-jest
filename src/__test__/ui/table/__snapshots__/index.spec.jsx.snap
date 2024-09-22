@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Table Component should render table with data 1`] = `
+<div>
+  <table>
+    <thead>
+      <tr>
+        <th>
+          Name
+        </th>
+        <th>
+          Email
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>
+          John
+        </td>
+        <td>
+          7XQp0@example.com
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Christ
+        </td>
+        <td>
+          abcd@example.com
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+`;
+
+exports[`Table Component should render table with no data 1`] = `
+<div>
+  <table>
+    <thead>
+      <tr />
+    </thead>
+    <tbody />
+  </table>
+</div>
+`;

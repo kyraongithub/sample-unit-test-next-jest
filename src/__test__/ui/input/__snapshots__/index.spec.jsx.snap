@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Input Component should render Input not textarea 1`] = `
+<div>
+  <input
+    placeholder="test"
+    type="password"
+    value=""
+  />
+</div>
+`;
+
+exports[`Input Component should render Input textarea 1`] = `
+<div>
+  <textarea
+    placeholder="test"
+  />
+</div>
+`;

@@ -1,0 +1,75 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Form Page should render form page 1`] = `
+<div>
+  <div>
+    <div>
+      <h1>
+        Add a user
+      </h1>
+      <label
+        for="Name"
+      >
+        Name
+      </label>
+      <br />
+      <input
+        id="Name"
+        placeholder="Enter name"
+        type="text"
+        value=""
+      />
+      <br />
+      <br />
+      <label
+        for="Email"
+      >
+        Email
+      </label>
+      <br />
+      <input
+        id="Email"
+        placeholder="Enter email"
+        type="text"
+        value=""
+      />
+      <br />
+      <br />
+      <button>
+        Submit
+      </button>
+    </div>
+    <hr />
+    <table>
+      <thead>
+        <tr>
+          <th>
+            Name
+          </th>
+          <th>
+            Email
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            John
+          </td>
+          <td>
+            7XQp0@example.com
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Christ
+          </td>
+          <td>
+            abcd@example.com
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+`;

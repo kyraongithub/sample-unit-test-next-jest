@@ -1,0 +1,124 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UserForm should handle full flow submit user form 1`] = `
+<div>
+  <div>
+    <h1>
+      Add a user
+    </h1>
+    <label
+      for="Name"
+    >
+      Name
+    </label>
+    <br />
+    <input
+      id="Name"
+      placeholder="Enter name"
+      type="text"
+      value="test"
+    />
+    <br />
+    <br />
+    <label
+      for="Email"
+    >
+      Email
+    </label>
+    <br />
+    <input
+      id="Email"
+      placeholder="Enter email"
+      type="text"
+      value="test@email.com"
+    />
+    <br />
+    <br />
+    <button>
+      Submit
+    </button>
+  </div>
+</div>
+`;
+
+exports[`UserForm should handle submit user form 1`] = `
+<div>
+  <div>
+    <h1>
+      Add a user
+    </h1>
+    <label
+      for="Name"
+    >
+      Name
+    </label>
+    <br />
+    <input
+      id="Name"
+      placeholder="Enter name"
+      type="text"
+      value=""
+    />
+    <br />
+    <br />
+    <label
+      for="Email"
+    >
+      Email
+    </label>
+    <br />
+    <input
+      id="Email"
+      placeholder="Enter email"
+      type="text"
+      value=""
+    />
+    <br />
+    <br />
+    <button>
+      Submit
+    </button>
+  </div>
+</div>
+`;
+
+exports[`UserForm should render user form 1`] = `
+<div>
+  <div>
+    <h1>
+      Add a user
+    </h1>
+    <label
+      for="Name"
+    >
+      Name
+    </label>
+    <br />
+    <input
+      id="Name"
+      placeholder="Enter name"
+      type="text"
+      value=""
+    />
+    <br />
+    <br />
+    <label
+      for="Email"
+    >
+      Email
+    </label>
+    <br />
+    <input
+      id="Email"
+      placeholder="Enter email"
+      type="text"
+      value=""
+    />
+    <br />
+    <br />
+    <button>
+      Submit
+    </button>
+  </div>
+</div>
+`;
