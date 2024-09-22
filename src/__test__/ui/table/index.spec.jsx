@@ -19,8 +19,12 @@ describe('Table Component', () => {
         email: 'abcd@example.com',
       },
     ];
-    const { container } = render(<Table head={TABLE_HEAD} data={TABLE_DATA} />);
-    expect(container).toMatchSnapshot();
+    const { getByText } = render(<Table head={TABLE_HEAD} data={TABLE_DATA} />);
+    TABLE_DATA.map((data) => {
+      TABLE_HEAD.map((head) => {
+        expect(getByText(data[head.toLowerCase()])).toBeInTheDocument();
+      });
+    });
   });
 
   it('should render table with data validate row count', () => {
